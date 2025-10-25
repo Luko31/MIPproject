@@ -40,7 +40,13 @@ ZDOS
 
 
 %anotacia
-Projekt sa zameriava na analýzu obsadenosti spojov v regionálnej doprave s cieľom navrhnúť spôsoby zlepšenia kvality služieb pre cestujúcich. Sucastou projektu je analyza ziskanych dat za ucelom skvalitnenia sluzieb verejnej dopravy . Zber dát bude realizovaný pomocou viacerych metod,  ktore budu sucastne implementovane do vozidiel verejnej dopravy. Medzi metody skumane v tomto projekte su: zaznam z kamier, pohybove senzory, termalne senzory, prerusovacie senzory,   prepojenie s aplikacou a terminalom vo vozidlach verejnej dopravy . Projekt sa zameriava na zistenie optimalneho sposobu zberu relelvantych dat. Získané dáta budú pripravené na následovné spracovanie - skúmanie korelácie medzi predpokladanou a reálnou obsadenosťou spojov. Vyhodnocovanie dát v reálnom čase a ich grafické zobrazenie pre verejnost a prevadzkovatelov. Zamerom je aj porovnanie aktuálne dostupných metód s historicky využívanými metódami merania obsadenosti verejnej dopravy.
+Projekt sa zameriava na analýzu obsadenosti spojov v regionálnej doprave s cieľom navrhnúť spôsoby zlepšenia kvality služieb pre cestujúcich. 
+Sucastou projektu je analyza ziskanych dat za ucelom skvalitnenia sluzieb verejnej dopravy . Zber dát bude realizovaný pomocou viacerych metod,  
+ktore budu sucastne implementovane do vozidiel verejnej dopravy. Medzi metody skumane v tomto projekte su: zaznam z kamier, pohybove senzory, 
+termalne senzory, prerusovacie senzory,   prepojenie s aplikacou a terminalom vo vozidlach verejnej dopravy . Projekt sa zameriava na zistenie 
+optimalneho sposobu zberu relelvantych dat. Získané dáta budú pripravené na následovné spracovanie - skúmanie korelácie medzi predpokladanou a 
+reálnou obsadenosťou spojov. Vyhodnocovanie dát v reálnom čase a ich grafické zobrazenie pre verejnost a prevadzkovatelov. Zamerom je aj porovnanie 
+aktuálne dostupných metód s historicky využívanými metódami merania obsadenosti verejnej dopravy.
 
 %\ldots
 \end{abstract}
@@ -49,7 +55,11 @@ Projekt sa zameriava na analýzu obsadenosti spojov v regionálnej doprave s cie
 
 \section{Úvod}
 
-Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
+Cieľom tohto projektu je prispieť k zlepšeniu kvality služieb v regionálnej doprave prostredníctvom efektívneho získavania a spracovaniadát o obsadenosti spojov. V súčasnosti väčšina 
+dopravcov v regionálnej autobusovej či železničnej doprave nevyužíva detailné, v reálnom čase 
+dostupné informácie o počte cestujúcich. Tieto údaje sú pritom kľúčové nielen pre optimalizáciu prevádzky a plánovania spojov, ale aj pre komfort 
+cestujúcich, ktorí by vďaka nim mohli lepšie plánovať svoju cestu. Projekt sa preto zameriava na komplexný pohľad na problematiku – od identifikácie
+dostupných technológií až po návrh spôsobu spracovania a prezentácie dát.
 
 Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
 Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlený v časti~\ref{nejaka}.
@@ -58,14 +68,54 @@ Záverečné poznámky prináša časť~\ref{zaver}.
 
 
 
-\section{Nejaká časť} \label{nejaka}
+\section{Naše ciele} \label{nejaka}
 
 Z obr.~\ref{f:rozhod} je všetko jasné. 
 
 \begin{figure*}[tbh]
 \centering
 %\includegraphics[scale=1.0]{diagram.pdf}
-Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
+Hlavným cieľom tohto projektu je prispieť k zlepšeniu kvality služieb v regionálnej doprave prostredníctvom efektívneho získavania a spracovania dát
+o obsadenosti spojov. Zatial čo sa nejedná o úplne nový koncept, myslíme si, že v súčasnosti veľa dopravcov  nevyužíva detailné, v reálnom čase dostupné informácie o počte cestujúcich.
+Tieto údaje sú pritom kľúčové nielen pre optimalizáciu prevádzky a plánovania spojov, ale aj pre komfort 
+cestujúcich, ktorí by vďaka nim mohli lepšie plánovať svoju cestu. Projekt sa preto zameriava na komplexný pohľad na problematiku – od identifikácie
+dostupných technológií až po návrh spôsobu spracovania a prezentácie dát. Nižšie si detailnejšie rozoberieme jednotlivé ciele projektu. 
+
+1. Zlepšenie kvality služieb pre cestujúcich
+
+Prvým a hlavným cieľom je zvýšenie kvality služieb poskytovaných v regionálnej doprave. Získavaním údajov o obsadenosti je možné poskytnúť citelné zlepšenie kvality a komfortu 
+na viacerých frontoch. Získané dáta by sa v reálnom čase mohli využiť na optimalizáciu plánovania takzvaných "posilových spojov" (nepravidelné spoje, ktoré na istú dobu zvyšujú kapacitu
+danej linky) a poskytovanie presných informácii o aktuálnej dopravnej situácii cestujúcim.
+
+➡️ Reálnosť dosiahnutia: Tento cieľ je realistický v dlhodobom horizonte, avšak konečná možnosť implementácie závisí od dostupnosti technológii a najmä ochoty
+zo strany prevádzkovateľov investovať do skvalitňovania služieb a doby montáže nových zariadení do ich vozidiel. Odhadovaný horizont na splnenie cieľu by bol až niekoľko rokov.
+
+2. Získanie informácií o aktuálnych metódach zisťovania obsadenosti
+
+Ďalším cieľom je preskúmať existujúce a aktívne využívané prístupy k zisťovaniu obsadenosti spojov – manuálne aj automatizované systémy. Chceme zistiť, ktoré metódy sa využívajú v podobných 
+oblastiach, ako aj dôvod ich implementácie a hlavne aké výhody a nevýhody poskytujú. 
+➡️ Reálnosť dosiahnutia: Cieľ je splniteľný. Jedná sa o teoretickú časť, ktorá vyžaduje rešerš aktuálne používaných metód. 
+
+3. Identifikácia technických možností získavania dát
+
+Projekt sa zaoberá aj popisom analýzou a vyhodnocovaním vhodnosti metód na získavanie dát obsadenosti vozidiel verejnej dopravy. Môže ísť o infračervené senzory, 
+váhové senzory v podlahe alebo na sedadlách, kamerové systémy, či dokonca sledovanie pripojených mobilných zariadení. Cieľom projektu je objaviť čo najvhodnejšie celoplošné 
+riešenie na zber dát. Metódy ako manuálne rátanie cestujúcich alebo označovanie lístkov nepovažujeme za dostatočne efektívne pre dnešnú spoločnosť a preto sa im nebudeme v hĺbke venovať.
+➡️ Reálnosť dosiahnutia: Uvedomujeme si, že neexistuje jedno konkrétne riešenie, ktoré sa dá nazvať objektívne najlepším. Veríme, že dokážeme ale dospieť ku konkrétnemu záveru ktoré 
+metódy (prípadne kombinácie metód) by boli najvhodnejšie pre jednotlivé prípady využitia. 
+
+4. Porovnanie predpokladanej a skutočnej obsadenosti
+
+Súčasťou projektu je aj sledovanie rozdielov medzi predpokladanou (napr. podľa predaja lístkov alebo historických dát) a reálnou obsadenosťou (podľa senzorických dát).
+Tento aspekt umožní overiť efektívnosť vyššie rozoberaných metód zberu dát a za predpokladu presnosti umožnia dopravcom lepšie optimalizovať plánovanie spojov. 
+➡️ Reálnosť dosiahnutia: Plné naplnenie tohto cieľa by si vyžadovalo prístup k reálnym dátam dopravcu. Praktické prevedenie preto v tejto fáze projektu nie je možné.
+V rámci akademického prostredia je však možné realizovať príklad s vygenerovanými dátami, čo umožní demonštrovať metodiku a prípadne výsledky porovnania. 
+
+5. Návrh spôsobu spracovania a prezentácie dát
+
+Posledným cieľom je navrhnúť spôsob spracovania získaných dát a ich sprístupnenie dopravcom aj verejnosti. To zahŕňa návrh spôsobu odosielania, ukladania, spracovania a zobrazovania získaných 
+dát uživateľom a dopravcom. 
+➡️ Reálnosť dosiahnutia: Tento cieľ je reálne dosiahnuteľný na úrovni konceptuálneho návrhu. Uvedomujeme si, že konkrétna implementácia by sa pravdepodobne líšila medzi jednotlivými dopravcami. 
 \caption{Rozhodujúci argument.}
 \label{f:rozhod}
 \end{figure*}
