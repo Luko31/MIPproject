@@ -122,15 +122,34 @@ dát uživateľom a dopravcom.
 
 
 
-\section{Iná časť} \label{ina}
+\section{Súčasný stav a existujúce riešenia} \label{ina}
+Problematika merania obsadenosti vozidiel verejnej dopravy patrí v súčasnosti medzi vysoko aktuálne a dôležité témy v oblasti ITS (Intelligent Transport Systems) a smart mobility.
+Mnohé zahraničné mestá zaviedli svoje vlastné systémy na sledovanie obsadenosti verejnej dopravy a ešte viac plánuje alebo aktívne nasadzuje svoje vlastné riešenia. V miestach so zavedenými 
+riešeniami vieme zreteľne pozorovať zlepšenie optimalizácie liniek verejnej dopravy, čo priamo vedie k zvýšeniu kvality služby pre cestujúcich.
 
-Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
+Aktuálne využívané riešenia
+ - Infračervené a optické senzory - najčastejším riešením v autobusovej a železničnej doprave. Senzory počítajú vstupy a výstupy cestujúcich pri všetkých vstupných dverách vozidla,
+									čím dokážu sledovať počet ľudí na palube. Praktické využitie systémov ukázalo, že sú relatívne presné (cca. 80 percent). Toto riešenie poskytuje
+									systém 'Passenger Counting' od spoločnosti DILAX alebo IRIS IRMA - v súčasnosti uplatňované napríklad v mestách Berlín či Praha.
+ - Kamerové systém - modernejšie riešenia využívajú umelú inteligenciu a algoritmy na spracovania obrazových záznamov v reálnom čase (OpenCV, YOLO, TesnorFlow). Kamery sú najviac uplatňované 
+					vo vlakoch a metrách, kde sa vyžaduje flexibilita a možnosť spätnej verifikácie cez manuálnu kontrolu záznamov. 
+ - Sieťové zariadenia - tento prístup spočíva v sledovaní počtu aktívnych mobilných zariadení pripojených na palubnú sieť Wi-Fi alebo Bluetooth. V súčastnosti sa tento systém experimentálne 
+ 						využíva v Švajčiarsku, či Holandsku.
+ - Dáta z predajných a rezervačných systémov - predstavuje najpresnejší spôsob odhadovania obsadenosti vozidla. Tento systém však funguje iba v prípade, ak dané vozidlo má iba fixnú kapacitu
+												,ktorá sa napĺňa rezerváciami, resp. kúpou lístka. Pre mestskú dopravnú sieť neposkytuje tento systém dostatočnú flexibilitu na to, aby nenarušil
+												plynulý chod liniek. Napriek tomu sa jedná o najrozšírenjších spôsobov získavania dát o obsadenosti po celom svete a to najmä v železničnej doprave.
+\subsection{Skúsenosti v praxi} \label{ina:nejake}
+V posledných rokoch boli realizované viaceré projekty zamerané na inteligentné monitorovanie obsadenosti: 
 
-Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dokázané, že to tak nie je~\cite{Czarnecki:Staged, Czarnecki:Progress}. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory\cite{PLP-Framework}. Dôležité veci možno \emph{zdôrazniť kurzívou}.
+zistit, vymenovat a opisat impleentovane systemy... (chat nasiel IDS JMK, IDS BK, Detsche Bahn, Projekt EU Horizon "MaaS4EU")
 
+\subsection{Zhodnotenie aktualnej situacie}
+Na základe aktuálneho kontextu možeme povedať, že: 
+ - existuje niekolko overenych technologii, ktore je mozne adaptovat pre sledovanie obsadenosti regionalnej dopravy
+ - na slovensku zacinaju iniciativy pre podobne riesenia
+ - aktulane vsak chyba vztah medzi ziskavanim, spracovanim a publikovanim dat za ucelom zlepsenia kvality sluzby verejnej dopravy
 
-\subsection{Nejaké vysvetlenie} \label{ina:nejake}
-
+Projekt nadväzuje na doterajšie poznatky v oblasti inteligentnych dopravnych systemov a poskytnut nahlad do moznosti praktickej implementacie a prispobeniu regionalnym podmienkam.??????????
 Niekedy treba uviesť zoznam:
 
 \begin{itemize}
@@ -167,7 +186,6 @@ Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom
 
 
 \section{Ešte dôležitejšia časť} \label{dolezitejsia}
-
 
 
 
